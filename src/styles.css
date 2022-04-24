@@ -1,0 +1,47 @@
+.App {
+  font-family: "Century Gothic", Futura, sans-serif;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+}
+h1,
+h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+ul.no-bullet {
+  list-style-type: none;
+}
+li {
+  clear: left;
+  background-color: rgb(236, 238, 237);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+}
+input {
+  display: inline-block;
+}
+
+.item-label {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  margin-left: 20px;
+}
+
+.delete-btn {
+  display: inline;
+  margin-left: 20px;
+  background-color: transparent;
+  border: none;
+}
+input,
+select,
+button {
+  padding: 3px;
+  margin: 10px;
+  border-radius: 3px;
+  border-width: 1px;
+}
